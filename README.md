@@ -1,0 +1,1 @@
+This is the first project for The Odin Project. I'm really excited to learn web development.
