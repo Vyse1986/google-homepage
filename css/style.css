@@ -1,6 +1,8 @@
 body {
     height: 100%;
     width: 100%;
+    font-size: 14px;
+    font-family: arial, sans-serif;
 }
 
 
@@ -46,7 +48,6 @@ li {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: auto;
     padding: 1em;
     background: #f2f2f2;
 }
@@ -57,16 +58,20 @@ li {
 
 #blnav {
     justify-content: flex-start;
-    margin: 2rem 55% 0px 0px;
+    min-width: 30%;
+    order: 1
 }
 
 #bcnav {
-    margin: 2rem 30% 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
 }
 
 #brnav {
     justify-content: flex-end;
-    margin: 2rem 0px 0px 0px;
+    min-width: 30%;
+    order: 3;
 }
 
 #bcnav img {
@@ -92,4 +97,9 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+input {
+    display: block;
+    margin: auto;
 }
