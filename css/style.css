@@ -1,9 +1,14 @@
+body {
+    height: 100%;
+    width: 100%;
+}
 
 
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 li {
@@ -13,19 +18,60 @@ li {
 #tnav {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#tnav a {
+    padding: 5px;
 }
 
 #tlnav {
-    justify-content: flex;
-}
+    justify-content: space-evenly;
+    margin: 10px 80% 0 1em;
+    }
+
 
 #trnav {
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin: 10px 0 0 2em;
+}
+
+#trnav img {
+    height: 2em;
+    width: 2em;
 }
 
 #bnav {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    background: #f2f2f2;
+}
+
+#bnav a {
+    padding: 5px;
+}
+
+#blnav {
+    justify-content: flex-start;
+    margin: 2rem 55% 0px 0px;
+}
+
+#bcnav {
+    margin: 2rem 30% 0px 0px;
+}
+
+#brnav {
+    justify-content: flex-end;
+    margin: 2rem 0px 0px 0px;
+}
+
+#bcnav img {
+    height: 14px;
+    width: 14px;
 }
 
 a:link {
@@ -37,12 +83,12 @@ a:hover {
 }
 
 #search {
-   display: flex;
+   display: block;
    align-items: center;
    justify-content: center;
 }
 
-input {
+#search img {
     display: block;
     margin-left: auto;
     margin-right: auto;
