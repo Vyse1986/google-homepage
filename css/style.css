@@ -41,7 +41,7 @@ li {
 }
 
 #tnav a {
-    padding: 5px;
+    padding: 2px;
 }
 
 #tlnav {
@@ -144,4 +144,8 @@ button:hover {
 .click {
     margin: 20px;
     text-align: center;
+}
+
+.middle {
+    max-height: 26vh;
 }
